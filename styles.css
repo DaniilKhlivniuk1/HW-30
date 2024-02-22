@@ -1,20 +1,3 @@
-.block {
-    width: 800px;
-    height: 800px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.square {
-    height: 150px;
-    width: 150px;
-    background-color: red;
-    transform: translate(0);
-    animation-name: move-box;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
 @keyframes move-box {
     0% {
         background-color: red;
@@ -22,19 +5,38 @@
     }
     25% {
         background-color: blue;
-        transform: translate(0, 650px);
+        transform: translate(0, 700px);
     }
     50% {
         background-color: green;
-        transform: translate(650px, 650px);
+        transform: translate(700px, 700px);
     }
     75% {
         background-color: yellow;
-        transform: translate(650px, 0px);
+        transform: translate(700px, 0px);
     }
     100% {
         background-color: red;
         transform: translate(0);
     }
+}
+
+
+
+.block {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 800px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    animation-name: move-box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transform: translate(0);
 }
 
