@@ -5,15 +5,15 @@
     }
     25% {
         background-color: blue;
-        transform: translate(0, 700px);
+        transform: translate(0, 600px);
     }
     50% {
         background-color: green;
-        transform: translate(700px, 700px);
+        transform: translate(600px, 600px);
     }
     75% {
         background-color: yellow;
-        transform: translate(700px, 0px);
+        transform: translate(600px, 0px);
     }
     100% {
         background-color: red;
